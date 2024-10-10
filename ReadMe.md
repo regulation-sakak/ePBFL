@@ -1,5 +1,10 @@
 ## Enhansing PBFL for ICLR 2025
 
+### Create result directory
+```sh
+mkdir results
+```
+
 ### Dataset setting
 ```sh
 cd dataset
