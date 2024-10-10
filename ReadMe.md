@@ -1,4 +1,4 @@
-## Enhansign PBFL for ICLR 2025
+## Enhansing PBFL for ICLR 2025
 
 ### Dataset setting
 ```sh
