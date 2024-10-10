@@ -73,7 +73,7 @@ class FedTGP(Server):
             self.mask_idx_dict = {}
             length = args.feature_dim // args.num_classes
 
-            vector_name = f'mask_idx_dict_{args.num_classes}_{args.cps_ratio}.pth'
+            vector_name = f'mask_idx_dict_fd_{args.feature_dim}_nc_{args.num_classes}_csr_{args.cps_ratio}.pth'
 
             if os.path.exists(vector_name):
                 self.mask_idx_dict = torch.load(vector_name)
